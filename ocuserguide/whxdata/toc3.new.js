@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Functional Overview","url":"OC_Rewards___CRM_Online_User_Guide.htm#Functional_Overviewbc-11"},{"type":"item","name":"Examples","url":"OC_Rewards___CRM_Online_User_Guide.htm#Examplesbc-12"},{"type":"item","name":"Limitations, Constraints","url":"OC_Rewards___CRM_Online_User_Guide.htm#Limitations_Constraintsbc-13"},{"type":"item","name":"Compatibility","url":"OC_Rewards___CRM_Online_User_Guide.htm#Compatibilitybc-14"},{"type":"item","name":"Privacy, Payment","url":"OC_Rewards___CRM_Online_User_Guide.htm#Privacy_Paymentbc-15"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"UTF-8\"?><cki><ck fm=\"OptCulture Extension User Guide\" to=\"OptCulture Extension User Guide\" num=\"1\"/></cki>";

@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"Table of Contents","url":"OC_Rewards___CRM_Online_User_Guide.htm#Table_of_Contents"},{"type":"book","name":"1. Introduction","key":"toc1","url":"OC_Rewards___CRM_Online_User_Guide.htm#1_Introductionbc-1"},{"type":"book","name":"2. Extension Overview","key":"toc3","url":"OC_Rewards___CRM_Online_User_Guide.htm#2_Extension_Overviewbc-10"},{"type":"book","name":"3. Implementation Guide","key":"toc4","url":"OC_Rewards___CRM_Online_User_Guide.htm#3_Implementation_Guidebc-16"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

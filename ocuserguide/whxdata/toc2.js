@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><data  src=\"toc1.js\"  name=\"Full Feature List\" url=\"OC_Rewards___CRM_Online_User_Guide.htm#Full_Feature_Listbc-6\"><item name=\"For Shoppers\" url=\"OC_Rewards___CRM_Online_User_Guide.htm#For_Shoppersbc-7\" /><item name=\"For Store Admin\" url=\"OC_Rewards___CRM_Online_User_Guide.htm#For_Store_Adminbc-8\" /></data>";

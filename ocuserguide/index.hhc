@@ -1,0 +1,128 @@
+﻿<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="FrameName" value="bsscright">
+  <param name="SiteType" value="toc">
+  <param name="Image Width" value="16">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Table of Contents">
+    <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Table_of_Contents">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="1. Introduction">
+    <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#1_Introduction">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="What does the component do?">
+      <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#What_does_the_component">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Integration">
+      <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Integration">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Core Features">
+      <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Core_Features">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Exclusive Features">
+      <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Exclusive_Features">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Full Feature List">
+      <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Full_Feature_List">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="For Shoppers">
+        <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#For_Shoppers">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="For Store Admin">
+        <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#For_Store_Admin">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Notes">
+      <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Notes">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="2. Extension Overview">
+    <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#2_Extension_Overview">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Functional Overview">
+      <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Functional_Overview">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Examples">
+      <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Examples">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Limitations, Constraints">
+      <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Limitations_Constraints">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Compatibility">
+      <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Compatibility">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Privacy, Payment">
+      <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Privacy_Payment">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="3. Implementation Guide">
+    <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#3_Implementation_Guide">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Installation">
+      <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Installation">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Configure the settings">
+      <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Configure_the_settings">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Installed Version">
+        <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Installed_Version">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Extension Settings">
+        <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Extension_Settings">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Phone Number for Enrollment">
+        <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Phone_Number_for">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Security Options">
+        <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Security_Options">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Content for Join now page">
+        <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Content_for_Join_now_page">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Discount Options">
+        <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Discount_Options">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Receipt Options">
+        <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Receipt_Options">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Export Products Scheduler options">
+        <param name="Local" value="OC_Rewards___CRM_Online_User_Guide.htm#Export_Products">
+      </object>
+      </ul>
+    </ul>
+</ul>
+</html>

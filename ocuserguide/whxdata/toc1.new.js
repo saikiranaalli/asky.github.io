@@ -1,0 +1,4 @@
+(function() {
+var toc =  [{"type":"item","name":"What does the component do?","url":"OC_Rewards___CRM_Online_User_Guide.htm#What_does_the_componentbc-2"},{"type":"item","name":"Integration","url":"OC_Rewards___CRM_Online_User_Guide.htm#Integrationbc-3"},{"type":"item","name":"Core Features","url":"OC_Rewards___CRM_Online_User_Guide.htm#Core_Featuresbc-4"},{"type":"item","name":"Exclusive Features","url":"OC_Rewards___CRM_Online_User_Guide.htm#Exclusive_Featuresbc-5"},{"type":"book","name":"Full Feature List","key":"toc2","url":"OC_Rewards___CRM_Online_User_Guide.htm#Full_Feature_Listbc-6"},{"type":"item","name":"Notes","url":"OC_Rewards___CRM_Online_User_Guide.htm#Notesbc-9"}];
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });
+})();

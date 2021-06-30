@@ -1,0 +1,1302 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="OriginalFile" content="OC Rewards &amp; CRM Online User Guide.doc" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>OptCulture Extension User Guide</title>
+<link rel="stylesheet" href="OC_Rewards___CRM_Online_User_Guide.css" type="text/css" />
+<style type="text/css">
+<!--
+A:visited { color:#800080; }
+A:link { color:#0000ff; }
+-->
+</style>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="template/scripts/common.min.js"></script>
+<script type="text/javascript" src="template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="template/scripts/constants.js"></script>
+<script type="text/javascript" src="template/scripts/utils.js"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js"></script>
+<script type="text/javascript" src="template/scripts/mhver.js"></script>
+<script type="text/javascript" src="template/scripts/settings.js"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="template/styles/topic.min.css">
+<script type="text/javascript" >
+gRootRelPath = ".";
+gCommonRootRelPath = ".";
+gTopicId = "";
+</script>
+</head>
+
+<body style="word-wrap: break-word;">
+<script type="text/javascript" src="./ehlpdhtm.js"></script>
+
+<p>&#160;</p>
+<p>&#160;</p>
+<p class="StandardName" style="text-align: center;"><b><span raleway="" 
+															 style="font-size: 48.0pt; 
+															 font-family: ;">OC 
+ Rewards &amp; CRM</span></b></p>
+<p class="StandardName" style="margin-bottom: 12.0pt; text-align: center;"><b><span 
+	 raleway="" style="font-size: 48.0pt; font-family: ;">Online User Guide</span></b></p>
+<p class="StandardName" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12.0pt; 
+	 margin-left: 0cm; text-align: center;"><b><span raleway="" style="font-size: 20.0pt; 
+													 font-family: ;">for 
+ Magento 2.x</span></b></p>
+<p class="StandardRequestors" style="text-align: center;"><span raleway="" 
+	 style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image002.gif" alt="" border="0" style="width:100%; max-width:605px" /></span></p>
+<p class="StandardRequestors" style="text-align: justify;">&#160;</p>
+<p class="StandardRequestors" style="text-align: center; text-indent: 36.0pt;">&#160;</p>
+<p class="StandardRequestors" style="text-align: center; text-indent: 36.0pt;"><span 
+	 raleway="" style="font-size: 10.0pt; font-family: ;">Copyright © 2021 
+ by OptCulture. All Rights Reserved.</span></p>
+<p>&#160;</p>
+<p>&#160;</p>
+<h1><a name="1_Introduction">1.<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;Introduction</a></h1>
+<h2><a name="What_does_the_component" id="What_does_the_component">What 
+ does the component do?</a></h2>
+<p style="font-family: ;"><span raleway="">Integration of OptCulture Extension 
+ – OC Rewards &amp; CRM enables Magento stores to use OptCulture’s Loyalty 
+ and Reward programs features. OptCulture helps you maximize revenue per 
+ customer and new customer acquisition through 360-degree customer engagement. 
+ Details of the Loyalty and Reward program from OptCulture refer to <a 
+	 href="https://www.optculture.com/request-demo">OC Support</a>.</span></p>
+<h2><a name="Integration" id="Integration">Integration</a></h2>
+<p><span raleway="" style="font-family: ;">Integration encompasses the 
+ deployment of a generic extension. The customer’s administrator may be 
+ required to modify OptCulture specific settings in their Magento store 
+ settings section.</span></p>
+<h2><a name="Core_Features" id="Core_Features">Core Features</a></h2>
+<p style="margin-left: 39.0pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">Open and flexible architecture</span></p>
+<p style="margin-left: 39.0pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">Promotions and Pricing</span></p>
+<p style="margin-left: 39.0pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">Customer Loyalty and Reward programs</span></p>
+<p style="margin-left: 39.0pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">Enhanced business agility and productivity</span></p>
+<p style="margin-left: 39.0pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">Engaging shopping experiences</span></p>
+<p style="margin-left: 39.0pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">Grade scalability and performance 
+ of the enterprise</span></p>
+<p style="margin-left: 39.0pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">Easier upgrades and maintenance</span></p>
+<p style="margin-left: 39.0pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">Site and Content Management</span></p>
+<p style="margin-left: 39.0pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">Catalog Management</span></p>
+<p style="margin-left: 39.0pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">Backup/Rollback system</span></p>
+<p style="margin-left: 39.0pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">Upgrading core files and their modules</span></p>
+<h2><a name="Exclusive_Features" id="Exclusive_Features">Exclusive Features</a></h2>
+<table cellspacing="0">
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="151"><p><b><span raleway="" style="font-family: ;">Boost 
+		 email list</span></b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="28"><p><span raleway="" style="font-family: ;">:</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="444"><p><span raleway="" style="font-family: ;">Shop 
+		 owners no longer have to wait for their visitors to subscribe 
+		 to newsletters at the subscription box actively; automatic invitation 
+		 notifications appear to collect information very simply and quickly. 
+		 Therefore, it will help to boost the email list and increase potential 
+		 buyers soon.</span></p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="151"><p><b><span raleway="" style="font-family: ;">Report 
+		 Emails</span></b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="28"><p><span raleway="" style="font-family: ;">:</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="444"><p><span raleway="" style="font-family: ;">A report 
+		 is emailed to store owners regularly and can also know the figures 
+		 of new weekly subscribers.</span></p>
+		<p>&#160;</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="151"><p><b><span raleway="" style="font-family: ;">Report 
+		 compatibility</span></b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="28"><p><span raleway="" style="font-family: ;">:</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="444"><p><span raleway="" style="font-family: ;">Compatible 
+		 with other Report Extension for Magento 2. Hence, store owners 
+		 can follow figures of new subscribers more detailed at admin Dashboard.</span></p>
+		<p>&#160;</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="151"><p><b><span raleway="" style="font-family: ;">SMTP 
+		 compatibility</span></b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="28"><p><span raleway="" style="font-family: ;">:</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="444"><p><span raleway="" style="font-family: ;">The 
+		 new-subscriber report email function is compatible with Magento 
+		 2 SMTP and helps guarantee spam-free emails.</span></p>
+		<p>&#160;</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="151"><p><b><span raleway="" style="font-family: ;">Highly 
+		 customizable options</span></b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="28"><p><span raleway="" style="font-family: ;">:</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="444"><p><span raleway="" style="font-family: ;">Admin 
+		 can easily customize the appearance of the options with details:</span></p>
+		<ul style="list-style: disc; margin-top: 0cm;">
+			<li><p><span raleway="" style="font-family: ;">Content: Modify 
+			 content using HTML.</span></p></li>
+			<li><p><span raleway="" style="font-family: ;">Design: Customize 
+			 with the store’s theme.</span></p></li>
+		</ul>
+		<p>&#160;</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="151"><p style="text-align: left;"><b><span raleway="" 
+		 style="font-family: ;">Premade OC templates</span></b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="28"><p><span raleway="" style="font-family: ;">:</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="444"><p><span raleway="" style="font-family: ;">Ready-to-use 
+		 templates of Magento 2 for better notifications and better available 
+		 choices. Admin can select, edit, configure with ease.</span></p>
+		<p>&#160;</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="151"><p style="text-align: left;"><b><span raleway="" 
+		 style="font-family: ;">Sync Product Data</span></b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="28"><p><span raleway="" style="font-family: ;">:</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="444"><p><span raleway="" style="font-family: ;">When 
+		 customers buy new products or when the admins create new products 
+		 in Magento, products will be synced from Magento 2 to OptCulture.</span></p>
+		<p><span raleway="" style="font-family: ;">When customers update 
+		 their product info in Magento 2, changes will be reflected in 
+		 OC CRM.</span></p>
+		<p>&#160;</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="151"><p style="text-align: left;"><b><span raleway="" 
+		 style="font-family: ;">Sync Customer Data</span></b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="28"><p><span raleway="" style="font-family: ;">:</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="444"><p><span raleway="" style="font-family: ;">When 
+		 customers sign up for a new account in Magento 2, their info will 
+		 be synced to OC CRM.</span></p>
+		<p><span raleway="" style="font-family: ;">When customers change 
+		 their info in Magento 2, their profile will also be updated in 
+		 OptCulture.</span></p>
+		<p>&#160;</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="151"><p><b><span raleway="" style="font-family: ;">Sync 
+		 Order Data</span></b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="28"><p><span raleway="" style="font-family: ;">:</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="444"><p><span raleway="" style="font-family: ;">When 
+		 customers buy products and place orders in Magento 2, associated 
+		 data will be synced to OC CRM.</span></p>
+		<p><span raleway="" style="font-family: ;">When customers or merchants 
+		 edit order info in Magento 2, updates will be reflected in OC 
+		 CRM.</span></p>
+		<p>&#160;</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="151"><p style="text-align: left;"><b><span raleway="" 
+		 style="font-family: ;">Sync Promotion Data</span></b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="28"><p><span raleway="" style="font-family: ;">:</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="444"><p><span raleway="" style="font-family: ;">When 
+		 merchants create a new catalog price rules campaign to promote 
+		 their products, promotion info will be synced to OC.</span></p>
+		<p><span raleway="" style="font-family: ;">Sync individual product, 
+		 customer, order, and promotional campaign data from Magento 2 
+		 to OC.</span></p>
+		<p><span raleway="" style="font-family: ;">Besides bulk syncing, 
+		 merchants also choose to sync individual objects from Magento 
+		 2 to OC CRM. Cron schedule option gives merchants much more freedom 
+		 in deciding when to sync their data.</span></p>
+		<p>&#160;</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="151"><p><b><span raleway="" style="font-family: ;">Automatic 
+		 Syncing</span></b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="28"><p><span raleway="" style="font-family: ;">:</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="444"><p><span raleway="" style="font-family: ;">Automated 
+		 syncing allows data to be synced from Magento 2 to OC automatically 
+		 when there are new or updated data.</span></p>
+		<p>&#160;</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="151"><p><b><span raleway="" style="font-family: ;">Interval 
+		 Syncing</span></b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="28"><p><span raleway="" style="font-family: ;">:</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="444"><p><span raleway="" style="font-family: ;">Instead 
+		 of live-syncing, all changes in Magento 2, interval syncing allows 
+		 data to be put in a queue for bulk syncing later.</span></p>
+		<p><span raleway="" style="font-family: ;">Add data to sync queues 
+		 for later processing.</span></p>
+		<p><span raleway="" style="font-family: ;">This syncing mode is 
+		 suitable if merchants have a high volume of orders, and live syncing 
+		 might affect the load and performance of their server.</span></p>
+		<p><span raleway="" style="font-family: ;">Set a syncing interval 
+		 as small as xx minutes.</span></p>
+		<p>&#160;</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="151"><p><b><span raleway="" style="font-family: ;">Manual 
+		 Syncing</span></b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="28"><p><span raleway="" style="font-family: ;">:</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="444"><p><span raleway="" style="font-family: ;">With 
+		 manual syncing, merchants will have complete control over which 
+		 data to sync and not synced.</span></p>
+		<p><span raleway="" style="font-family: ;">Merchants can sync all 
+		 data to OC with one click of a button.</span></p>
+		<p><span raleway="" style="font-family: ;">Manage syncing queues 
+		 and sync all items in line.</span></p>
+		<p>&#160;</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="151"><p style="text-align: left;"><b><span raleway="" 
+		 style="font-family: ;">Easily Map Data Fields</span></b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="28"><p><span raleway="" style="font-family: ;">:</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="444"><p><span raleway="" style="font-family: ;">OC 
+		 extension supports a user-friendly mapping interface using drop-down 
+		 menus. Merchants will choose a data field in Magento 2 and a corresponding 
+		 data field in OptCulture.</span></p>
+		<p>&#160;</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="151"><p style="text-align: left;"><b><span raleway="" 
+		 style="font-family: ;">Sync from One Field to Multiple Fields</span></b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="28"><p><span raleway="" style="font-family: ;">:</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="444"><p><span raleway="" style="font-family: ;">You 
+		 can save a lot of time by mapping from one field in Magento 2 
+		 to multiple data fields in OC.</span></p>
+		<p><span raleway="" style="font-family: ;">When data is synced, 
+		 they will be synced from one field to multiple fields.</span></p>
+		<p>&#160;</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="151"><p><b><span raleway="" style="font-family: ;">View 
+		 Sync Report</span></b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="28"><p><span raleway="" style="font-family: ;">:</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="444"><p><span raleway="" style="font-family: ;">Merchants 
+		 can view daily sync reports from Magento 2 to OC.</span></p>
+		<p><span raleway="" style="font-family: ;">See successes and failures 
+		 during syncing.</span></p>
+		<p>&#160;</p>
+		<p>&#160;</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="151"><p style="text-align: left;"><b><span raleway="" 
+		 style="font-family: ;">High-quality Products &amp; Services</span></b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="28"><p><span raleway="" style="font-family: ;">:</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="444"><p><span raleway="" style="font-family: ;">100% 
+		 open-source and customizable software.</span></p>
+		<p><span raleway="" style="font-family: ;">Lifetime free update 
+		 with specific months support.</span></p></td>
+	</tr>
+</table>
+<h2><a name="Full_Feature_List" id="Full_Feature_List">Full Feature List</a></h2>
+<h3><a name="For_Shoppers" id="For_Shoppers">For Shoppers</a></h3>
+<ul style="list-style: disc; margin-top: 0cm;">
+	<li><p><span raleway="" style="font-family: ;">Click exit site without 
+	 turning off notification.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Click the floating button 
+	 to see the notification.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Click the banner to 
+	 see the message or notification.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Receive discount coupons.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Actively choose Terms 
+	 and Conditions.</span></p></li>
+</ul>
+<p>&#160;</p>
+<h3><a name="For_Store_Admin" id="For_Store_Admin">For Store Admin</a></h3>
+<ul style="list-style: disc; margin-top: 0cm;">
+	<li><p><span raleway="" style="font-family: ;">Enabling or Disabling 
+	 module.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Editing the content 
+	 of modules easily.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Configure options with 
+	 ease.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Able to change the background 
+	 colour and text colour of a notification.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Two choices of responsive 
+	 position for OC CRM: Full-screen and Centre display.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Able to show success 
+	 page.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Enable to customize 
+	 congratulations content and attach a coupon code on the congratulations 
+	 page.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Insert a snippet to 
+	 choose pages to appear a notification manually.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Enable and disable to 
+	 display notifications on particular pages by page URLs.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Open notifications after 
+	 X seconds on site.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Open notifications after 
+	 X% of a page which is scrolled down.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Only re-display notifications 
+	 after X days.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Set the Terms and Conditions 
+	 with no pre-tick checkbox.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Receive a weekly new-subscribing 
+	 report.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Feature the xx latest 
+	 subscribing email addresses on weekly reports.</span></p></li>
+</ul>
+<p>&#160;</p>
+<h2><a name="Notes" id="Notes">Notes</a></h2>
+<p><span raleway="" style="font-family: ;">After installing the extension, 
+ the merchant does not need to write any code. The extension will handle 
+ showing the Loyalty dashboard on all pages, tracking purchases and returns. 
+ The merchant has to click on the register button, complete the signup 
+ process in OptCulture, and obtain and update the API-KEY in the OptCulture 
+ Settings in the Magento settings section.</span></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">If the merchant wishes to embed 
+ the Loyalty Dashboard, they need to follow the instructions provided in 
+ embed dashboard settings in OptCulture. For embedding the dashboard, the 
+ merchant needs to write code and update their store as per the instructions 
+ provided by OptCulture. More details can be found in the documentation.</span></p>
+<h1><a name="2_Extension_Overview">2.<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;Extension</a> 
+ Overview</h1>
+<h2><a name="Functional_Overview" id="Functional_Overview">Functional Overview</a></h2>
+<p><span raleway="" style="font-family: ;">This extension allows Magento 
+ customers to install and use OptCulture’s loyalty and reward program on 
+ their store. Below is the expected flow of actions:</span><span raleway="" 
+	 style="font-family: ;">&#160;</span></p>
+<p style="text-align: center;"><span raleway="" style="font-family: ;"><br />
+</span><img src="OC_Rewards___CRM_Online_User_Guide_files/image004.jpg" alt="" border="0" style="width:100%; max-width:489px" /><span raleway="" 
+	 style="font-family: ;">&#160;</span></p>
+<h2><a name="Examples" id="Examples">Examples</a></h2>
+<p><span raleway="" style="font-family: ;">The below examples are written 
+ from a user’s perspective who visits the retailer (Magento end-user) website.</span></p>
+<p style="margin-left: 54.0pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">The User visits the retailer website 
+ and gets 100 points for creating an account.</span></p>
+<p style="margin-left: 54.0pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">The User purchases on the website 
+ and can earn points for the purchase.</span></p>
+<p style="margin-left: 54.0pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">The User updates her birthday in 
+ the loyalty program and is awarded 100 points on her birthday.</span></p>
+<p style="margin-left: 54.0pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">User1 refers to a friend User2. 
+ User2 creates an account on the website and makes a purchase. User1 gets 
+ points for the purchase made by User2.</span></p>
+<p style="margin-left: 54.0pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">The User does not like the product 
+ and returns it. A credit memo is raised to refund the User. As soon as 
+ the credit memo is completed, the User’s purchase points are reverted.</span></p>
+<p style="margin-left: 54.0pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">User can earn reward points when 
+ they spend on special categories such as shopping at online stores, on 
+ specific items and so on.</span></p>
+<h2><a name="Limitations_Constraints" id="Limitations_Constraints">Limitations, 
+ Constraints</a></h2>
+<p><span raleway="" style="font-family: ;">OC Extension works with the 
+ default LUMA theme; the User can change the UI accordingly for their web 
+ page if needed.</span></p>
+<h2><a name="Compatibility" id="Compatibility">Compatibility</a></h2>
+<p><span raleway="" style="font-family: ;">Available since Magento 2.4.x.</span></p>
+<h2><a name="Privacy_Payment" id="Privacy_Payment">Privacy, Payment</a></h2>
+<p><span raleway="" style="font-family: ;">The customer’s credit card data 
+ is not accessed. OptCulture only accesses the following info:</span></p>
+<ol start="1" style="list-style: decimal; margin-top: 0cm;">
+	<li><p><span raleway="" style="font-family: ;">Customer Email, Customer 
+	 First Name, and Customer Last Name.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Details of the order 
+	 placed by the User on the customer’s Magento store.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Details of the orders 
+	 returned by the User on the customer’s Magento Store.</span></p></li>
+</ol>
+<h1><a name="3_Implementation_Guide">3.<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;Implementation 
+ Guide</a></h1>
+<h2><a name="Installation" id="Installation">Installation</a></h2>
+<p><span raleway="" style="font-family: ;">Here we will guide you through 
+ the installation process of our extension. First off, open FileZilla, 
+ log in to your host as follows:</span></p>
+<p><img src="OC_Rewards___CRM_Online_User_Guide_files/image006.gif" alt="" border="0" style="width:100%; max-width:580px" /></p>
+<p>&#160;</p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">We switched the local site to 
+ the extension directory and the remote site to the code directory in the 
+ above example. Now on the remote site window, open the app/code directory, 
+ and on your local site window, right-click on Extension Name and click 
+ Upload. The extension will be uploaded onto your host in a few minutes.</span></p>
+<p><span raleway="" style="font-family: ;">The second method will require 
+ you to compress the extension into .zip or .tar.gz format, then execute 
+ the following command in your Command-Line/Terminal:</span></p>
+<p><span raleway="" style="font-size: 10.0pt; font-family: ;">scp &lt;path 
+ to your extension&gt; &lt;ssh server&gt;:&lt;path to app/code directory&gt;</span></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">Then go to the app/code directory 
+ and execute the following command to decompress the module:</span></p>
+<p><span raleway="" style="font-size: 10.0pt; font-family: ;">unzip &lt;.zip 
+ compressed extension&gt;</span></p>
+<p><span raleway="" style="font-family: ;">Or</span></p>
+<p><span raleway="" style="font-size: 10.0pt; font-family: ;">tar -xzvf 
+ &lt;.tar.gz compressed extension&gt;</span></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">Now go to your Magento root 
+ directory, say it’s named magento2, and execute the following commands:</span></p>
+<p><span raleway="" style="font-size: 10.0pt; font-family: ;">php bin/magento 
+ setup:upgrade</span></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">After running all these, your 
+ Command line/Terminal window might look like this:</span></p>
+<p><img src="OC_Rewards___CRM_Online_User_Guide_files/image008.gif" alt="" border="0" style="width:100%; max-width:593px" /></p>
+<p>&#160;</p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">Finally, you need to flush the 
+ cache by either type this into the Command Line/Terminal:</span></p>
+<p><span raleway="" style="font-size: 10.0pt; font-family: ;">php bin/magento 
+ cache:flush</span></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">Now you can go to your store 
+ and check if the extension is working as expected.</span></p>
+<h2><a name="Configure_the_settings" id="Configure_the_settings">Configure 
+ the settings</a></h2>
+<p style="margin-left: 35.7pt; text-align: left; text-indent: -17.85pt;"><span 
+	 raleway="" style="font-family: ;">1.<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">Go to Magento store Admin. Under 
+ <b>Stores</b> &gt;&gt;<b>Configuration</b>, you should see the module 
+ named <b>OPTCULTURE</b> Extension&gt;&gt;Reward Program. Click on <b>Reward</b> 
+ <b>Program</b>.<br />
+<img src="OC_Rewards___CRM_Online_User_Guide_files/image010.gif" alt="" border="0" style="width:100%; max-width:223px" />&#160;&#160;<img src="OC_Rewards___CRM_Online_User_Guide_files/image012.gif" alt="" border="0" style="width:100%; max-width:259px" /></span></p>
+<p style="text-align: left;">&#160;</p>
+<ol start="2" style="list-style: decimal; margin-top: 0cm;">
+	<li><p><span raleway="" style="font-family: ;">On the screen that appears 
+	 on the left, select your store first and <b>Save Config</b>.<br />
+	<![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image014.jpg" v:shapes="_x0000_i1031" alt="" border="0" style="width:100%; max-width:601px" /><![endif]></span></p></li>
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">Go 
+	 to the front end and create a <b>New Customer Account</b> by entering 
+	 the required credentials:<br />
+	<![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image016.jpg" v:shapes="_x0000_i1032" alt="" border="0" style="width:100%; max-width:351px" /><![endif]></span></p></li>
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">If 
+	 you opt for Reward Program, select “Add me to Rewards Program” by 
+	 checking it and entering the mandatory details.<br />
+	<![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image018.jpg" v:shapes="_x0000_i1033" alt="" border="0" style="width:100%; max-width:328px" /><![endif]></span><span raleway="" style="font-family: ;">&#160;</span></p></li>
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">Once 
+	 you create an account, you will be taken to the OptCulture Admin dashboard.</span></p></li>
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">Review 
+	 the activities and rewards that we’ve tailored for you and launch 
+	 the program.<br />
+	<![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image020.jpg" v:shapes="_x0000_i1034" alt="" border="0" style="width:100%; max-width:601px" /><![endif]></span></p></li>
+</ol>
+<p>&#160;</p>
+<h3><a name="Installed_Version" id="Installed_Version">Installed Version</a></h3>
+<p><span raleway="" style="font-family: ;">The OptCulture Extension version 
+ is mentioned in the Installed Version section of the Configuration page.</span></p>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image022.jpg" alt="" border="0" style="width:100%; max-width:337px" /></span></p>
+<p>&#160;</p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">For downloading the latest version 
+ of OptCulture Extension, contact <a href="https://www.optculture.com/contact">OptCulture 
+ Sales</a>.</span></p>
+<p>&#160;</p>
+<h3><a name="Extension_Settings" id="Extension_Settings">Extension Settings</a></h3>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image024.jpg" alt="" border="0" style="width:100%; max-width:602px" /></span></p>
+<p>&#160;</p>
+<p>&#160;</p>
+<h4>Enable</h4>
+<p><span raleway="" style="font-family: ;">Set <b>Yes</b> to enable OptCulture 
+ - Reward Program module.</span></p>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image026.jpg" alt="" border="0" style="width:100%; max-width:441px" /></span></p>
+<h4>Username</h4>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">Enter 
+ the <b>Username</b> received from the OptCulture Support Team (through 
+ registered mail).<br />
+<img src="OC_Rewards___CRM_Online_User_Guide_files/image028.jpg" alt="" border="0" style="width:100%; max-width:440px" /></span></p>
+<h4>Organization Id</h4>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">Enter 
+ the <b>Organization Id</b> received from the OptCulture Support Team (through 
+ registered mail).<br />
+<img src="OC_Rewards___CRM_Online_User_Guide_files/image030.jpg" alt="" border="0" style="width:100%; max-width:462px" /></span></p>
+<h4>Token</h4>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">Enter 
+ the <b>Token</b> (Key) received from the OptCulture Support Team (through 
+ registered mail).<b><br />
+</b><img src="OC_Rewards___CRM_Online_User_Guide_files/image032.jpg" alt="" border="0" style="width:100%; max-width:435px" /></span></p>
+<h4>Store Number</h4>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">Enter 
+ the Default <b>Store Number</b> value as <b>1</b> (one) unless you got 
+ a specific number from your registered mail.<br />
+<img src="OC_Rewards___CRM_Online_User_Guide_files/image034.jpg" alt="" border="0" style="width:100%; max-width:465px" /></span></p>
+<h4>Enable Developer Mode</h4>
+<p><span raleway="" style="font-family: ;">The Magento 2 platform offers 
+ two options (Yes/No) for Enabling Developer Mode. Depending on specific 
+ situations, store admin can select Yes/No for Enabling Developer mode 
+ for their Magento store.</span> <span raleway="" style="font-family: ;">&#160;</span></p>
+<p><span raleway="" style="font-family: ;">The OC Extension comes with 
+ two API gateways, one is <b>staging mode,</b> and the other is <b>live 
+ mode</b>.</span></p>
+<p>&#160;</p>
+<h5>If No:</h5>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image036.jpg" alt="" border="0" style="width:100%; max-width:504px" /></span></p>
+<p><span raleway="" style="font-family: ;">The default value is <b>No</b>.</span></p>
+<p><span raleway="" style="font-family: ;">If you are testing your application 
+ in a staging environment, select the Enable Developer Mode to <b>No</b>.</span></p>
+<p><span raleway="" style="font-family: ;">If you select the Enable Developer 
+ Mode to <b>No</b>, the staging goes to “<b>app”: <a href="https://app.optculture.com/">https://app.optculture.com/</a></b></span></p>
+<p>&#160;</p>
+<p style="margin-left: 36.0pt; text-indent: -36.0pt;"><b><span raleway="" 
+	 style="font-family: ;">NOTE: If your website is in production mode/production 
+ environment, the Enable Developer Mode must be set to Yes.</span></b></p>
+<p style="margin-left: 72.0pt; text-indent: -72.0pt;">&#160;</p>
+<h5>If Yes:</h5>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image038.jpg" alt="" border="0" style="width:100%; max-width:514px" /></span></p>
+<p><span raleway="" style="font-family: ;">If you select the Enable Developer 
+ Mode to Yes, the staging goes to “<b>qcapp”: <a href="https://qcapp.optculture.com/">https://qcapp.optculture.com/</a></b></span></p>
+<p><b><span raleway="" style="font-family: ;">NOTE: If you don’t see a 
+ new mode applied, flush cache to fix it.</span></b></p>
+<h4>Enable Debug Logging:</h4>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">By 
+ default, Magento writes to the debug log (&lt;install_directory&gt;/var/log/loyaltydebug.log) 
+ in default mode or developer mode, but not in production mode.</span></p>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image040.jpg" alt="" border="0" style="width:100%; max-width:499px" /></span></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">Please select <b>Yes</b> to 
+ Enable Debug Logging or <b>No</b> to disable it.</span></p>
+<p style="margin-left: 72.0pt; text-indent: -72.0pt;"><b><span raleway="" 
+	 style="font-family: ;">NOTE:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;To 
+ save disk space, do not enable debug logging (select No) for your production 
+ environments.</span></b></p>
+<p><span raleway="" style="font-family: ;">You can check your log files 
+ in the <b>/var/log/loyaltydebug.log</b> directory.</span></p>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image042.jpg" alt="" border="0" style="width:100%; max-width:602px" /></span></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">OptCulture provides few additional 
+ logs (loyaltyscheduler, loyaltyinfo, etc.) for easy analysis; you can 
+ check them at <b>/var/log/… &#160;</b>directory.</span></p>
+<h3><a name="Phone_Number_for" id="Phone_Number_for">Phone Number for Enrollment</a></h3>
+<p><span raleway="" style="font-family: ;">The default value for Phone 
+ number Enrollment is <b>Yes</b>.</span></p>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image044.jpg" alt="" border="0" style="width:100%; max-width:602px" /></span></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">When 
+ you select the <b>Phone Number Enrollment</b> option to <b>Yes,</b> checking-in 
+ the <b>Add me to the Reward Program</b> option from the <b>Create New 
+ Customer Account</b> page and enter the mandatory details will enroll 
+ you in the OptCulture Loyalty and Reward Programs.<br />
+<br />
+<img src="OC_Rewards___CRM_Online_User_Guide_files/image046.jpg" alt="" border="0" style="width:100%; max-width:239px" /></span></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">If you choose <b>No</b>, you 
+ need to disable “Restrict Membership per Customer with Mobile No.” in 
+ the OptCulture Loyalty program.</span></p>
+<p><b><i><span raleway="" style="font-family: ;">If No:</span></i></b></p>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image048.jpg" alt="" border="0" style="width:100%; max-width:461px" /></span></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">Follow the below procedure to 
+ Restrict Membership per Customer with Mobile No. in OptCulture Loyalty 
+ program:</span></p>
+<ol start="1" style="list-style: decimal; margin-top: 0cm;">
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">Login 
+	 to OptCulture with your registered credentials:<br />
+	<![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image050.jpg" v:shapes="_x0000_i1049" alt="" border="0" style="width:100%; max-width:241px" /><![endif]></span></p>
+	<p style="text-align: left;">&#160;</p></li>
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">Select 
+	 <b>Loyalty</b> &gt;&gt; <b>Loyalty Program</b><br />
+	<![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image052.jpg" v:shapes="_x0000_i1050" alt="" border="0" style="width:100%; max-width:513px" /><![endif]></span><span raleway="" style="font-family: ;">&#160;</span></p>
+	<p style="text-align: left;">&#160;</p></li>
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">Edit 
+	 the Loyalty Program by selecting <![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image054.gif" v:shapes="_x0000_i1051" alt="" border="0" style="width:100%; max-width:17px" /><![endif]><br />
+	<![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image056.jpg" v:shapes="_x0000_i1052" alt="" border="0" style="width:100%; max-width:603px" /><![endif]></span><span raleway="" style="font-family: ;">&#160;</span></p>
+	<p class="ListParagraph">&#160;</p>
+	<p style="text-align: left;">&#160;</p></li>
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">Enter 
+	 Loyalty Password and click <b>Submit</b>.<br />
+	<![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image058.jpg" v:shapes="_x0000_i1053" alt="" border="0" style="width:100%; max-width:135px" /><![endif]></span><span raleway="" style="font-family: ;">&#160;</span></p>
+	<p style="text-align: left;">&#160;</p></li>
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">Select 
+	 Configure Program and Un-check Restrict Membership per Customer with 
+	 Mobile No.<br />
+	<![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image060.jpg" v:shapes="_x0000_i1054" alt="" border="0" style="width:100%; max-width:602px" /><![endif]></span><span raleway="" style="font-family: ;">&#160;</span></p>
+	<p class="ListParagraph">&#160;</p>
+	<p style="text-align: left;">&#160;</p></li>
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">Select 
+	 <b>Save &amp; Continue</b>.<br />
+	<![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image062.jpg" v:shapes="_x0000_i1055" alt="" border="0" style="width:100%; max-width:89px" /><![endif]></span><span raleway="" style="font-family: ;">&#160;</span></p></li>
+</ol>
+<h4>Enrollment Processes</h4>
+<p style="text-align: left;"><b><i><span raleway="" style="font-family: ;">For 
+ a New Customer – Option 1</span></i></b></p>
+<p style="margin-left: 35.7pt; text-align: left; text-indent: -17.85pt;"><span 
+	 raleway="" style="font-family: ;">1.<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">While creating a New Customer Account, 
+ checking in the Add me to the Reward Program option and entering the mandatory 
+ details will enroll you in the OptCulture Loyalty and Reward Programs.<br />
+<br />
+<img src="OC_Rewards___CRM_Online_User_Guide_files/image046.jpg" alt="" border="0" style="width:100%; max-width:239px" /></span></p>
+<p style="text-align: left;">&#160;</p>
+<p style="text-align: left;">&#160;</p>
+<p style="text-align: left;"><b><i><span raleway="" style="font-family: ;">For 
+ New Customers – Option 2</span></i></b></p>
+<ol start="1" style="list-style: decimal; margin-top: 0cm;">
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">Select 
+	 the Reward Program option on your web page.<br />
+	<![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image064.jpg" v:shapes="_x0000_i1057" alt="" border="0" style="width:100%; max-width:602px" /><![endif]></span><span raleway="" style="font-family: ;">&#160;</span></p>
+	<p style="text-align: left;">&#160;</p></li>
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">Click 
+	 <b>Join Now</b>.<br />
+	<![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image066.jpg" v:shapes="_x0000_i1058" alt="" border="0" style="width:100%; max-width:602px" /><![endif]></span><span raleway="" style="font-family: ;">&#160;</span></p></li>
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">Enter 
+	 the mandatory Personal Information and Reward Program credentials 
+	 and click <b>Join Rewards Program</b>. <![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image068.jpg" v:shapes="_x0000_i1059" alt="" border="0" style="width:100%; max-width:81px" /><![endif]><br />
+	<![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image070.jpg" v:shapes="_x0000_i1060" alt="" border="0" style="width:100%; max-width:238px" /><![endif]></span><span raleway="" style="font-family: ;">&#160;</span></p></li>
+</ol>
+<p>&#160;</p>
+<p style="text-align: left;"><b><i><span raleway="" style="font-family: ;">For 
+ existing customer</span></i></b></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">Existing 
+ customer can enroll in OptCulture Rewards and Loyalty programs in multiple 
+ areas:</span></p>
+<p style="text-align: left;"><b><span raleway="" style="font-family: ;">Option 
+ 1:</span></b></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">On 
+ the screen that appears on the left, select <b>My Rewards</b> and click 
+ <b>Join</b>.</span></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image072.jpg" alt="" border="0" style="width:100%; max-width:602px" /></span></p>
+<p style="text-align: left;">&#160;</p>
+<p style="text-align: left;"><b><span raleway="" style="font-family: ;">Option 
+ 2:</span></b></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">Click 
+ on Welcome, Username &gt;&gt; <b>My Account.</b></span></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image074.jpg" alt="" border="0" style="width:100%; max-width:602px" /></span></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">Click 
+ on <b>Join Reward Program</b>.</span></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image076.jpg" alt="" border="0" style="width:100%; max-width:601px" /></span></p>
+<p style="text-align: left;">&#160;</p>
+<p style="text-align: left;"><b><span raleway="" style="font-family: ;">Option 
+ 3:</span></b></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">On 
+ the screen that appears to the left, select <b>Address Book</b> and enter 
+ all the mandatory details and check in the “Join the Rewards Program” 
+ option.</span></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image078.jpg" alt="" border="0" style="width:100%; max-width:602px" /></span></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">Click 
+ <b>OK</b> to join the rewards program.</span></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image080.jpg" alt="" border="0" style="width:100%; max-width:403px" />&#160;</span></p>
+<p style="text-align: left;">&#160;</p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">Click 
+ on <b>Save</b> <b>Address</b>. <img src="OC_Rewards___CRM_Online_User_Guide_files/image082.jpg" alt="" border="0" style="width:100%; max-width:59px" /></span></p>
+<p style="text-align: left;">&#160;</p>
+<p style="text-align: left;">&#160;</p>
+<p style="text-align: left;"><b><span raleway="" style="font-family: ;">Option 
+ 3:</span></b></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">At 
+ the time of Applying Loyalty Rewards, click on <b>Join Rewards Program</b>.<b><br />
+</b><img src="OC_Rewards___CRM_Online_User_Guide_files/image084.jpg" alt="" border="0" style="width:100%; max-width:437px" /></span></p>
+<p style="text-align: left;"><b><span raleway="" style="font-family: ;">Option 
+ 4:</span></b> <span raleway="" style="font-family: ;">&#160;</span></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">At 
+ the time of Payment Method, select the check-in option for “Join Reward 
+ Program” and click on <b>Place Order</b>.<b><i><br />
+</i></b><img src="OC_Rewards___CRM_Online_User_Guide_files/image086.jpg" alt="" border="0" style="width:100%; max-width:521px" /></span></p>
+<p style="text-align: left;">&#160;</p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">The 
+ customer prompts to get a digital receipt and can confirm his enrollment 
+ through the mail.</span></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">The 
+ OptCulture team creates your enrollment, and the details will be sent 
+ to your registered mail id.</span></p>
+<h4>My Rewards</h4>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">You 
+ can view your reward summary by selecting <b>Reward Program</b> or <b>My 
+ Rewards</b> or <b>Check your rewards</b> options as highlighted in the 
+ below image:</span></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image088.jpg" alt="" border="0" style="width:100%; max-width:602px" /></span></p>
+<p style="text-align: left;">&#160;</p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">Your 
+ reward summary is displayed under the <b>My Rewards</b> section:</span></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image090.jpg" alt="" border="0" style="width:100%; max-width:601px" /></span></p>
+<p style="text-align: left;">&#160;</p>
+<p style="margin-left: 36.0pt; text-align: left; text-indent: -36.0pt;"><b><span 
+	 raleway="" style="font-family: ;">NOTE: The reward summary parameters 
+ may vary depending upon various stores.</span></b></p>
+<h4>Promotion features</h4>
+<p><span raleway="" style="font-family: ;">On the cart page, the User can 
+ see all the details regarding promotion rules, eligible discounts, redeem 
+ balance, reward balance, etc.</span></p>
+<p style="text-align: left;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image092.jpg" alt="" border="0" style="width:100%; max-width:441px" /></p>
+<p style="text-align: left;">&#160;</p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">Users 
+ can check, earn and redeem loyalty rewards by selecting Email/Phone options.</span></p>
+<ul style="list-style: disc; margin-top: 0cm;">
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">By 
+	 Email: Select the “By Email” option, enter the registered Email address, 
+	 and click <b>Submit</b>.</span></p></li>
+</ul>
+<p style="margin-left: 36.0pt; text-align: left;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image094.jpg" alt="" border="0" style="width:100%; max-width:203px" /></p>
+<p style="margin-left: 36.0pt; text-align: left;">&#160;</p>
+<ul style="list-style: disc; margin-top: 0cm;">
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">By 
+	 Phone: Select the “By Phone” option, enter the registered Phone number, 
+	 and click <b>Submit</b>.</span></p></li>
+</ul>
+<p style="margin-left: 36.0pt; text-align: left;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image096.jpg" alt="" border="0" style="width:100%; max-width:209px" /></p>
+<p style="margin-left: 36.0pt; text-align: left;">&#160;</p>
+<p style="margin-left: 35.7pt; text-align: left; text-indent: -17.85pt;"><span 
+	 style="font-family: Symbol;">·<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">User can able to see the reward 
+ balance summary as below:</span></p>
+<p style="margin-left: 36.0pt; text-align: left;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image098.jpg" alt="" border="0" style="width:100%; max-width:275px" /></p>
+<p style="margin-left: 36.0pt; text-align: left;">&#160;</p>
+<ul style="list-style: disc; margin-top: 0cm;">
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">Users 
+	 can enter the Order Total into the Redeemable Balance section to avail 
+	 the redeem points. &#160;&#160;<br />
+	</span> <![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image100.jpg" v:shapes="_x0000_i1075" alt="" border="0" style="width:100%; max-width:602px" /><![endif]><span 
+	 raleway="" style="font-family: ;">&#160;</span></p></li>
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">When 
+	 the Order Total is entered, the User can see the Reward success message, 
+	 and the Order Total value becomes Zero.</span><br />
+	<![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image102.gif" v:shapes="_x0000_i1076" alt="" border="0" style="width:100%; max-width:603px" /><![endif]><span raleway="" style="font-family: ;">&#160;</span></p></li>
+</ul>
+<p style="text-align: left;">&#160;</p>
+<ul style="list-style: disc; margin-top: 0cm;">
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">User 
+	 cannot redeem more than the Order Total; if so, a prompt shows to 
+	 enter a value less than or equal to Order Total.<br />
+	<br />
+	<![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image104.jpg" v:shapes="_x0000_i1077" alt="" border="0" style="width:100%; max-width:602px" /><![endif]></span></p></li>
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">Click 
+	 on the <b>Remove Discount</b> option for removing redeem points.<br />
+	</span><br />
+	<![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image106.jpg" v:shapes="_x0000_i1078" alt="" border="0" style="width:100%; max-width:602px" /><![endif]><span raleway="" style="font-family: ;">&#160;</span></p></li>
+</ul>
+<p style="text-align: left;">&#160;</p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">User 
+ can redeem points at two places:</span></p>
+<p style="text-align: left;">&#160;</p>
+<ol start="1" style="list-style: decimal; margin-top: 0cm;">
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">At 
+	 cart page:<br />
+	<br />
+	</span> <![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image108.jpg" v:shapes="_x0000_i1079" alt="" border="0" style="width:100%; max-width:602px" /><![endif]><span 
+	 raleway="" style="font-family: ;">&#160;</span></p></li>
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">At 
+	 check-out page:<br />
+	<br />
+	</span> <![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image110.jpg" v:shapes="_x0000_i1080" alt="" border="0" style="width:100%; max-width:381px" /><![endif]><span 
+	 raleway="" style="font-family: ;">&#160;</span></p></li>
+</ol>
+<p style="text-align: left;">&#160;</p>
+<h5>Discount Rules</h5>
+<ol start="1" style="list-style: decimal; margin-top: 0cm;">
+	<li><p><span raleway="" style="font-family: ;">Users can apply either 
+	 Receipt level code or Item level code, but not both at a time.</span></p></li>
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">If 
+	 you select any Receipt level code, automatically, the Item level codes 
+	 are disabled in the list and vice-versa.<br />
+	<br />
+	</span> <![if !vml]><img src="OC_Rewards___CRM_Online_User_Guide_files/image112.jpg" v:shapes="_x0000_i1081" alt="" border="0" style="width:100%; max-width:357px" /><![endif]><br />
+	<![if !supportLineBreakNewLine]><br />
+	<![endif]><span raleway="" style="font-family: ;">&#160;</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Only one Receipt level 
+	 code can be applied to Order Total.</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">One or more Item level 
+	 codes can be applied to Order Total.</span></p></li>
+</ol>
+<p style="margin-left: 35.7pt; text-align: left; text-indent: -17.85pt;"><span 
+	 raleway="" style="font-family: ;">5.<span style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">You can apply multiple options like 
+ Redeem Balance, &#160;Eligible Discounts, and Discount Code at a time.<br />
+<br />
+</span><img src="OC_Rewards___CRM_Online_User_Guide_files/image114.jpg" alt="" border="0" style="width:100%; max-width:441px" /><br />
+<br />
+<span raleway="" style="font-family: ;">All the applied discount coupons, 
+ redeem points, and promotion rules can be viewed on the Order Summary 
+ page:<br />
+<br />
+</span><img src="OC_Rewards___CRM_Online_User_Guide_files/image116.jpg" alt="" border="0" style="width:100%; max-width:469px" /><br />
+<span raleway="" style="font-family: ;">Admin Order Summary view:<br />
+</span><img src="OC_Rewards___CRM_Online_User_Guide_files/image118.jpg" alt="" border="0" style="width:100%; max-width:395px" /><span raleway="" 
+	 style="font-family: ;">&#160;</span></p>
+<p>&#160;</p>
+<h5>Eligible Discounts</h5>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">Users 
+ can avail various discounts through the Receipt level and Item level by 
+ selecting the options in the <b>Eligible Discounts</b> section. Here are 
+ few discount types:</span></p>
+<ul style="list-style: disc; margin-top: 0cm;">
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">Coupons</span></p></li>
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">Promotions</span></p></li>
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">Rewards</span></p></li>
+	<li><p style="text-align: left;"><span raleway="" style="font-family: ;">Loyalty</span></p></li>
+</ul>
+<p style="margin-left: 36.0pt; text-align: left; text-indent: -36.0pt;"><b><span 
+	 raleway="" style="font-family: ;">NOTE: The OptCulture Membership 
+ users are eligible for all the applicable discount types, but the guest 
+ users cannot avail the Loyalty and Rewards programs; they can only avail 
+ the coupons and promotions.<br />
+<br />
+</span></b></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">You 
+ can create the discount code options in OptCulture Admin &#160;Dashboard 
+ by selecting <b>Marketing Tools -&gt; Create Discount Code.<br />
+<br />
+</b></span><img src="OC_Rewards___CRM_Online_User_Guide_files/image120.jpg" alt="" border="0" style="width:100%; max-width:602px" /></p>
+<p><span raleway="" style="font-family: ;">The store admin can create the 
+ discount codes by selecting <b>Marketing Tools -&gt; Discount Codes</b> 
+ as per their requirement from the OptCulture admin dashboard:<br />
+<br />
+</span></p>
+<p><img src="OC_Rewards___CRM_Online_User_Guide_files/image122.jpg" alt="" border="0" style="width:100%; max-width:602px" /><span raleway="" 
+															 style="font-family: ;">&#160;</span></p>
+<p style="text-align: left;"><span raleway="" style="font-family: ;">The 
+ created discount types are viewed on the front-end web page, and users 
+ can see the description beside the discount type and apply accordingly 
+ as per their interest by selecting the Discount option and clicking on 
+ <b>Apply</b>.<br />
+<br />
+</span></p>
+<p style="text-align: left;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image124.jpg" alt="" border="0" style="width:100%; max-width:345px" /><span 
+	 raleway="" style="font-family: ;">&#160;</span></p>
+<p style="text-align: left;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image126.jpg" alt="" border="0" style="width:100%; max-width:351px" /></p>
+<p style="margin-left: 36.0pt; text-align: left; text-indent: -36.0pt;"><b><span 
+	 raleway="" style="font-family: ;">NOTE: User can select different 
+ types of Coupon codes from the list and can view and avail maximum benefits:<br />
+<br />
+</span></b></p>
+<p style="text-align: left;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image128.jpg" alt="" border="0" style="width:100%; max-width:602px" /></p>
+<p style="text-align: left;">&#160;</p>
+<h5>Apply Discount Code</h5>
+<p><span raleway="" style="font-family: ;">You can enter the discount code 
+ and can avail the discount by selecting Apply Discount.</span></p>
+<p><img src="OC_Rewards___CRM_Online_User_Guide_files/image130.jpg" alt="" border="0" style="width:100%; max-width:455px" /></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">If you want to disable the Magento 
+ Discount Codes, select <b>No</b> from the <b>Discount Options</b> &gt; 
+ <b>Enable Magento Discount Codes</b>.</span></p>
+<p><img src="OC_Rewards___CRM_Online_User_Guide_files/image132.jpg" alt="" border="0" style="width:100%; max-width:516px" /></p>
+<p><b><span raleway="" style="font-family: ;">Result:</span></b> <span 
+	 raleway="" style="font-family: ;">You cannot see the “Apply Discount 
+ Code” section on the cart page and Check-out page.</span></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">User can avail Discount Code 
+ on two pages:</span></p>
+<ol start="1" style="list-style: decimal; margin-top: 0cm;">
+	<li><p><span raleway="" style="font-family: ;">At Cart page:</span></p></li>
+</ol>
+<p><img src="OC_Rewards___CRM_Online_User_Guide_files/image134.jpg" alt="" border="0" style="width:100%; max-width:459px" /></p>
+<p style="margin-left: 35.7pt; text-indent: -17.85pt;"><span raleway="" 
+															 style="font-family: ;">2.<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">At Check out page:</span></p>
+<p><img src="OC_Rewards___CRM_Online_User_Guide_files/image136.jpg" alt="" border="0" style="width:100%; max-width:409px" /></p>
+<h3><a name="Security_Options" id="Security_Options">Security Options</a></h3>
+<p><span raleway="" style="font-family: ;">Go to Magento store Admin. Under 
+ <b>Stores</b> &gt;&gt;<b>Configuration</b>, you should see the module 
+ named <b>OPTCULTURE</b> Extension&gt;&gt;<b>Reward</b> <b>Program</b>. 
+ Click on <b>Reward</b> <b>Program</b> and select <b>Security</b> <b>Options</b> 
+ to configure them.</span></p>
+<p>&#160;</p>
+<p><img src="OC_Rewards___CRM_Online_User_Guide_files/image138.jpg" alt="" border="0" style="width:100%; max-width:602px" /></p>
+<p>&#160;</p>
+<p><img src="OC_Rewards___CRM_Online_User_Guide_files/image140.jpg" alt="" border="0" style="width:100%; max-width:602px" /></p>
+<h4>Authentication Method</h4>
+<p><img src="OC_Rewards___CRM_Online_User_Guide_files/image142.jpg" alt="" border="0" style="width:100%; max-width:513px" /></p>
+<p><span raleway="" style="font-family: ;">The OptCulture Extension provides 
+ three types of Authentication Methods:</span></p>
+<ol start="1" style="list-style: decimal; margin-top: 0cm;">
+	<li><p><span raleway="" style="font-family: ;">None</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Verification Code</span></p></li>
+	<li><p><span raleway="" style="font-family: ;">Check with signed-in 
+	 details</span></p></li>
+</ol>
+<h5>None</h5>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image144.jpg" alt="" border="0" style="width:100%; max-width:532px" /></span></p>
+<p><span raleway="" style="font-family: ;">Select <b>None</b> for no authentication.</span></p>
+<h5>Verification Code</h5>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image146.jpg" alt="" border="0" style="width:100%; max-width:513px" /></span></p>
+<p><span raleway="" style="font-family: ;">Select <b>Verification</b> <b>Code</b> 
+ option for authentication through email or SMS during enrollment, redemption 
+ and promotions.</span></p>
+<h6 style="margin-left: 0cm; text-indent: 0cm;">Case 1</h6>
+<p><span raleway="" style="font-family: ;">When the customer tries to redeem 
+ his balance on the Cart page, he/she needs to enter the redeem balance 
+ value at the Redeemable Balance slot and click <b>Apply</b>.</span></p>
+<p>&#160;</p>
+<p><img src="OC_Rewards___CRM_Online_User_Guide_files/image148.jpg" alt="" border="0" style="width:100%; max-width:353px" /></p>
+<p><span raleway="" style="font-family: ;">Customer needs to confirm the 
+ verification code received on Email or SMS by entering it in the Verification 
+ Code section:</span></p>
+<p>&#160;</p>
+<p><img src="OC_Rewards___CRM_Online_User_Guide_files/image150.jpg" alt="" border="0" style="width:100%; max-width:602px" /></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">Customers can also see the expiration 
+ time of the verification code above the submit button.</span></p>
+<p><span raleway="" style="font-family: ;">Generate a new verification 
+ code by clicking on the <b>RESEND CODE</b> button when it expires.</span></p>
+<p>&#160;</p>
+<p><img src="OC_Rewards___CRM_Online_User_Guide_files/image152.jpg" alt="" border="0" style="width:100%; max-width:602px" /></p>
+<p>&#160;</p>
+<h6 style="margin-left: 0cm; text-indent: 0cm;">Case 2</h6>
+<p><span raleway="" style="font-family: ;">If a guest user tries to redeem 
+ the balance, he/she must sign in with the registered Email and Password.</span></p>
+<p><img src="OC_Rewards___CRM_Online_User_Guide_files/image154.jpg" alt="" border="0" style="width:100%; max-width:285px" /></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">User needs to confirm the verification 
+ code received on the registered Email or SMS by entering it in the Verification 
+ Code section:</span></p>
+<p><img src="OC_Rewards___CRM_Online_User_Guide_files/image150.jpg" alt="" border="0" style="width:100%; max-width:602px" /></p>
+<h5>Check with signed-in details</h5>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image156.jpg" alt="" border="0" style="width:100%; max-width:509px" /></span></p>
+<p><span raleway="" style="font-family: ;">Select the <b>Check with signed-in 
+ details</b> option for checking the user email address or phone number 
+ entered during redemption and apply any promotion rules with the Magento 
+ signed-in user details. If not signed in, a prompt showing the details 
+ are not matched and the redemption will be failed.</span></p>
+<h6 style="margin-left: 0cm; text-indent: 0cm;">Case 1</h6>
+<p><span raleway="" style="font-family: ;">If a guest user tries to redeem 
+ the balance, he/she must sign in with the registered Email and Password.</span></p>
+<p><img src="OC_Rewards___CRM_Online_User_Guide_files/image154.jpg" alt="" border="0" style="width:100%; max-width:285px" /><img src="OC_Rewards___CRM_Online_User_Guide_files/image158.jpg" alt="" border="0" style="width:100%; max-width:312px" /></p>
+<p>&#160;</p>
+<h6>Case 2</h6>
+<p><span raleway="" style="font-family: ;">If an unauthorized user wants 
+ to avail redeem points, a notification appears stating, “Your signed in 
+ email address is not valid. Please sign in with the appropriate account 
+ to redeem”.</span></p>
+<p><img src="OC_Rewards___CRM_Online_User_Guide_files/image160.jpg" alt="" border="0" style="width:100%; max-width:464px" /><span raleway="" 
+															 style="font-family: ;">&#160;</span></p>
+<p>&#160;</p>
+<h4>Verification Code Expire Time (minutes)</h4>
+<p><span raleway="" style="font-family: ;">This option can be configured 
+ when the customer selects Verification Code in Authentication Method.</span></p>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image162.jpg" alt="" border="0" style="width:100%; max-width:602px" /></span></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">Please enter the value for code 
+ expire time in minutes; the verification code is valid only for this specific 
+ time and needs to generate a new code once expired.</span></p>
+<p>&#160;</p>
+<h4>Maximum Failures to Lockout</h4>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image164.jpg" alt="" border="0" style="width:100%; max-width:548px" /></span></p>
+<p><span raleway="" style="font-family: ;">Enter the maximum value to be 
+ set for lockout.</span></p>
+<p><b><span raleway="" style="font-family: ;">NOTE: Enter 0 (zero) to disable 
+ account locking.</span></b></p>
+<p><b><span raleway="" style="font-family: ;">NOTE: The lockout feature 
+ is not applicable for Guest users.</span></b></p>
+<p><span raleway="" style="font-family: ;">User can see a prompt as below 
+ if he reached the maximum limit (both By Email and By Phone):</span></p>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image166.jpg" alt="" border="0" style="width:100%; max-width:333px" /></span></p>
+<p>&#160;</p>
+<h4>Lockout Time (minutes)</h4>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image168.jpg" alt="" border="0" style="width:100%; max-width:507px" /></span></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">Enter the minimum Lockout time 
+ in minutes.</span></p>
+<p><span raleway="" style="font-family: ;">Once the customer enters invalid 
+ credentials, the facility will be locked for the specific minutes and 
+ displays a prompt as below:</span></p>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image170.jpg" alt="" border="0" style="width:100%; max-width:367px" /></span></p>
+<p>&#160;</p>
+<h3><a name="Content_for_Join_now_page" id="Content_for_Join_now_page">Content 
+ for Join now page</a></h3>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image172.jpg" alt="" border="0" style="width:100%; max-width:602px" /></span></p>
+<p><span raleway="" style="font-family: ;">The content displayed in the 
+ HTML Content section is displayed on the My Rewards page of the web page 
+ as shown below:</span></p>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image174.jpg" alt="" border="0" style="width:100%; max-width:541px" /></span></p>
+<p>&#160;</p>
+<p style="margin-left: 36.0pt; text-indent: -36.0pt;"><b><span raleway="" 
+	 style="font-family: ;">NOTE: Users must follow the same HTML structure 
+ for displaying the text on the web page.</span></b></p>
+<p><span raleway="" style="font-family: ;">Use the default HTML content 
+ and structure for further changes.</span></p>
+<p><span raleway="" style="font-family: ;">The same set of details mentioned 
+ in the Loyalty program must be mentioned in the HTML Content section for 
+ consistency.</span></p>
+<p>&#160;</p>
+<h3><a name="Discount_Options" id="Discount_Options">Discount Options</a></h3>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image176.jpg" alt="" border="0" style="width:100%; max-width:602px" /></span></p>
+<p><span raleway="" style="font-family: ;">By default, <b>Enable Magento 
+ Discount Codes</b> and Loyalty Redeem As Discount values are listed to 
+ <b>Yes</b>.</span></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">The discount details are displayed 
+ on the Order Summary section of the Cart page:</span></p>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image178.jpg" alt="" border="0" style="width:100%; max-width:469px" /></span></p>
+<p><span raleway="" style="font-family: ;">The applied discount codes and 
+ rewards are calculated automatically in the order summary.</span></p>
+<p>&#160;</p>
+<p style="margin-left: 36.0pt; text-indent: -36.0pt;"><b><span raleway="" 
+	 style="font-family: ;">NOTE: If you select No in the “Loyalty Redeem 
+ as Discount” section, it affects tax. As a result, a higher tax value 
+ applies to the items ordered.</span></b></p>
+<h3><a name="Receipt_Options" id="Receipt_Options">Receipt Options</a></h3>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image180.jpg" alt="" border="0" style="width:100%; max-width:602px" /></span></p>
+<p><span raleway="" style="font-family: ;">Select the default value <b>Yes</b> 
+ from the “Send Receipt by Email” section to receive a receipt by Email 
+ through OptCulture.</span></p>
+<p><span raleway="" style="font-family: ;">Or</span></p>
+<p><span raleway="" style="font-family: ;">Select <b>No</b> to receive 
+ a receipt by Email through Magento.</span></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">Users must create customized 
+ templates</span> <img src="OC_Rewards___CRM_Online_User_Guide_files/image182.jpg" alt="" border="0" style="width:100%; max-width:95px" /><span 
+	 raleway="" style="font-family: ;">&#160;for various formats as mentioned 
+ below through OptCulture and select <b>Yes</b> in the Send Receipt by 
+ Email section to avail them.</span></p>
+<p style="margin-left: 39.65pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">Order success mail</span></p>
+<p style="margin-left: 39.65pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">Refund mail (Credit memo in Magento)</span></p>
+<p style="margin-left: 39.65pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">Cancellation mail</span></p>
+<p style="margin-left: 39.65pt; text-indent: -18.0pt;"><span style="font-family: Symbol;">·<span 
+	 style="font: 7.0pt 'Times New Roman';">&#160;&#160;&#160;&#160;</span></span>&#160;<span 
+	 raleway="" style="font-family: ;">Partial refund mail</span></p>
+<p>&#160;</p>
+<p><img src="OC_Rewards___CRM_Online_User_Guide_files/image184.jpg" alt="" border="0" style="width:100%; max-width:602px" /><span raleway="">&#160;</span></p>
+<p class="MsoNormal" style="mso-pagination: widow-orphan lines-together; 
+	 page-break-after: avoid;"><span style="mso-pagination: widow-orphan lines-together;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-family: 'Raleway Medium'; 
+	 mso-no-proof: yes;"><span raleway="" style="font-family: ;">T</span>he 
+ store Admin can easily create various OptCulture templates based upon 
+ their requirement by using the <b>Drag and Drop Editor</b> options from 
+ OptCulture Admin dashboard. The below image shows a sample example of 
+ such receipt:</span></span></p>
+<p class="MsoNormal" style="mso-pagination: widow-orphan lines-together; 
+	 page-break-after: avoid;">&#160;</p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US"><img src="clip_image002.gif" alt="" border="0" style="width:100%; max-width:557px" /></span><span lang="EN-US" 
+	 xml:lang="EN-US" style="font-family: 'Raleway Medium'; mso-no-proof: yes;"><span 
+	 style="mso-spacerun: yes;">&#160;</span><span style="mso-spacerun: yes;">&#160;</span></span></p>
+<h3><a name="Export_Products" id="Export_Products">Export Products Scheduler 
+ options</a></h3>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image186.jpg" alt="" border="0" style="width:100%; max-width:602px" /></span></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">If you want to export all the 
+ products manually, click on Export All Products, and the CSV file is uploaded 
+ automatically on your remote server directory.</span></p>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image188.jpg" alt="" border="0" style="width:100%; max-width:435px" /></span></p>
+<p style="margin-left: 36.0pt; text-indent: -36.0pt;"><b><span raleway="" 
+	 style="font-family: ;">NOTE: The User must select the “Export All 
+ Products” for the first time he logins.</span></b> <span raleway="" style="font-family: ;">&#160;</span></p>
+<p><span raleway="" style="font-family: ;">This feature syncs the store 
+ data with OptCulture, and the User can automatically use the feature Cron 
+ Schedule to sync the data.</span></p>
+<p><span raleway="" style="font-family: ;">Enter the SFTP Host, Username, 
+ Password, SFTP Port details provided by the OptCulture Technical Support 
+ team in their respective areas.</span></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image190.jpg" alt="" border="0" style="width:100%; max-width:445px" /></span></p>
+<p><span raleway="" style="font-family: ;">Select Yes in the Scheduler 
+ Enabled section for exporting products:</span></p>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image192.jpg" alt="" border="0" style="width:100%; max-width:486px" /></span></p>
+<p>&#160;</p>
+<h4>Cron Schedule</h4>
+<p><span raleway="" style="font-family: ;"><img src="OC_Rewards___CRM_Online_User_Guide_files/image194.gif" alt="" border="0" style="width:100%; max-width:460px" /></span></p>
+<p>&#160;</p>
+<p><span raleway="" style="font-family: ;">Set your value in ***** format.</span></p>
+<p><span raleway="" style="font-family: ;">Cron Schedule rules:</span></p>
+<p><span raleway="" style="font-family: ;">The sequence of five * values 
+ refer to:</span></p>
+<table style="border: none; border-collapse: separate;" cellspacing="0">
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="123"><p style="text-align: center;"><span raleway="" 
+		 style="font-family: ;">*</span></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #000000 1.0px; 
+			 border-top: solid #000000 1.0px; border-bottom: solid #000000 1.0px; 
+			 padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="123"><p style="text-align: center;"><span 
+		 raleway="" style="font-family: ;">*</span></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #000000 1.0px; 
+			 border-top: solid #000000 1.0px; border-bottom: solid #000000 1.0px; 
+			 padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="123"><p style="text-align: center;"><span 
+		 raleway="" style="font-family: ;">*</span></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #000000 1.0px; 
+			 border-top: solid #000000 1.0px; border-bottom: solid #000000 1.0px; 
+			 padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="123"><p style="text-align: center;"><span 
+		 raleway="" style="font-family: ;">*</span></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #000000 1.0px; 
+			 border-top: solid #000000 1.0px; border-bottom: solid #000000 1.0px; 
+			 padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="123"><p style="text-align: center;"><span 
+		 raleway="" style="font-family: ;">*</span></p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: none; border-bottom: solid #000000 1.0px; 
+			 padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" width="123"><p style="text-align: center;"><span 
+		 raleway="" style="font-size: 11.0pt; font-family: ;">Minute</span></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #000000 1.0px; 
+			 border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="123"><p style="text-align: center;"><span raleway="" 
+		 style="font-size: 11.0pt; font-family: ;">Hour</span></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #000000 1.0px; 
+			 border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="123"><p style="text-align: center;"><span raleway="" 
+		 style="font-size: 11.0pt; font-family: ;">Day(month)</span></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #000000 1.0px; 
+			 border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="123"><p style="text-align: center;"><span raleway="" 
+		 style="font-size: 11.0pt; font-family: ;">Month</span></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: solid #000000 1.0px; 
+			 border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="123"><p style="text-align: center;"><span raleway="" 
+		 style="font-size: 11.0pt; font-family: ;">Day(week)</span></p></td>
+	</tr>
+</table>
+<p><span raleway="" style="font-family: ;">F</span><span raleway="" style="font-family: ;">or 
+ more details and to configure a quick and simple editor for cron schedule 
+ expressions, refer: <b><span><a href="https://crontab.guru/"><span style="color: #3333CC; 
+	 text-underline: none; text-decoration: none; ">https://crontab.guru/</span></a></span></b></span></p>
+<p>&#160;</p>
+<p>&#160;</p>
+</body>
+</html>

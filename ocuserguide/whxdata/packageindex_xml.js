@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"utf-8\"?><cki><ck fm=\"%\" to=\"code\"/><ck fm=\"code”\" to=\"image022\"/><ck fm=\"image024\" to=\"not\"/><ck fm=\"note\" to=\"slot\"/><ck fm=\"small\" to=\"…\"/></cki>";
